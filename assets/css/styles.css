@@ -8,11 +8,21 @@ body{
 
 
 header{
-    background-color: #e6f2ff;
+    background-color: #f0f7ff;
     color: #333;
     padding: 20px 0;
+
     text-align: center;
     margin-bottom:20px;
+}
+
+.mission{
+    background-color: #f0f7ff;
+    border: 2px solid #94c3eb;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
 }
 
 figure{
@@ -58,11 +68,63 @@ li{
     margin-bottom: 5px;
 }
 
-
-.stack{
+.learning {
     border: 2px solid #94c3eb;
     border-radius: 10px;
-    background-color: #e6f2ff;
+    background-color: #f4ddfc;
+    padding: 15px;           
+    margin-top: 15px;        
+}
+
+
+.skills {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.skills li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;           
+    font-size: 1rem;
+    border-bottom: 1px solid #d9c7e6; 
+}
+
+
+.skills li:last-child {
+    border-bottom: none;
+}
+
+
+.tech {
+    font-weight: 600;
+}
+
+
+.status {
+    margin: 0 20px;
+    font-size: 1.1rem;
+}
+
+
+.percent {
+    font-weight: 700;
+
+}
+
+.projects{
+    border: 2px solid #94ebd1;
+    border-radius: 10px;
+    background-color: #e6f0ff;
+}
+
+.toolkit{
+    border: 2px solid #d094eb;
+    border-radius: 10px;
+    background-color: #e6f0ff;
 }
 
 .profile-img{
@@ -96,6 +158,12 @@ li{
     background-color: #f5f0ff;
     border: 2px solid purple;
 }
+
+.sprint {
+    background-color: #f0fff4;
+    border: 2px solid #94ebd1;
+}
+
 footer{
     text-align: center;
     padding: 15px;
